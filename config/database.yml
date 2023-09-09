@@ -8,6 +8,7 @@ development:
 
 production:
   <<: *default
-  username: s_original_user
-  password: ICYFzeTgMenF4B9CcrH99Ud8sq6GYgkm
-  host: dpg-cjtvgl7hdsdc73fqqvn0-a
+  host: dpg-cju47s95mpss73bm7j10-a
+  database: s_original_fcev
+  username: s_original_fcev_user
+  password: WwdVULYLRVvyrUD3CHNAohdytP6rTLFe
