@@ -1,0 +1,13 @@
+default_env: &default
+  adapter: postgresql
+  encoding: unicode
+  database: s_original
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  username: s_original_user
+  password: ICYFzeTgMenF4B9CcrH99Ud8sq6GYgkm
+  host: dpg-cjtvgl7hdsdc73fqqvn0-a

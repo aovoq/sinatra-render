@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>memo</title>
+</head>
+<body>
+  <h1>memo</h1>
+  
+  <form action="/memo" method="post">
+    <input type="text" name="text"/>
+    <button type="submit">save</button>
+  </form>
+  
+  <% @memos.each do |memo| %>
+    <p><%= memo.text %></p>
+    <small><%= memo.created_at %></small>
+    <hr/>
+  <% end %>
+  
+</body>
+</html>
